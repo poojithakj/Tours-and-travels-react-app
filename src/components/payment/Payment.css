@@ -1,0 +1,135 @@
+.upi-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .upi-dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+  }
+  
+  .upi-dropdown-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  
+  .modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .close {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .section-title {
+    text-align: left;
+    color: teal;
+    font-size: 16px;
+  }
+  
+  .upi-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .upi-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .upi-option:hover {
+    border-color: green;
+  }
+  
+  .upi-option.selected {
+    border-color: green;
+    background: #f0fff0;
+  }
+  
+  .upi-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .checkmark {
+    font-size: 18px;
+    color: gray;
+    display: none;
+  }
+  
+  .checkmark.visible {
+    display: inline;
+    color: green;
+  }
+  
+  .new-upi-container {
+    padding: 10px;
+    border: 2px solid teal;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    color: teal;
+  }
+  
+  .upi-dropdown {
+    background: white;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    border-radius: 5px;
+    position: absolute;
+    width: 150px;
+  }
+  
+  .upi-dropdown-item {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .upi-dropdown-item:hover {
+    background: lightgray;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    background: teal;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background: darkcyan;
+  }
+  

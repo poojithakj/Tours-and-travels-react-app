@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background: transparent url('C:\Users\ADMIN\Desktop\PROJECT\tours\public\image2.png') 0% 0% no-repeat padding-box;
+    background: transparent radial-gradient(closest-side at 30% 59%, #D5E9ED 0%, #ABE4E8 16%, #7DDFE2 35%,
+        #61DCDF 50%, #57DBDE 59%, #45B0B2 86%, #3F9FA1 100%) 0% 0% no-repeat padding-box;
+    /* background: transparent url('C:\Users\bhoomika\OneDrive\Desktop\caseStudy\tours\public\image2.png'),radial-gradient(closest-side at 30% 59%, #D5E9ED 0%, #ABE4E8 16%, #7DDFE2 35%, 
+  #61DCDF 50%, #57DBDE 59%, #45B0B2 86%, #3F9FA1 100%) 0% 0% no-repeat padding-box; */
+    background-size: cover;
+  
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+  }
+  
+  .left-section {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .left-section h1 {
+    font-size: 36px;
+    color: white;
+  }
+  
+  .left-section .highlight {
+    color: red;
+  }
+  
+  .left-section img {
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .right-section {
+    width: 30%;
+    background: white;
+    padding: 40px;
+    border-radius: 31px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  
+  }
+  
+  .right-section h2 {
+    margin-bottom: 20px;
+    color: #3F9FA1;
+  }
+  
+  .right-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .right-section input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Sofia Pro, Regular;
+  }
+  
+  .right-section button {
+    background: #3F9FA1;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .right-section button:hover {
+    background: #3F9FA1;
+  }
+  
+  .right-section .register {
+    color: #252B34;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .right-section .register:hover {
+    text-decoration: underline;
+  }

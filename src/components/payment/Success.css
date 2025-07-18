@@ -1,0 +1,49 @@
+/* Center the success message */
+.success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  /* Success message box */
+  .success-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Success animation */
+  .success-animation {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 15px;
+  }
+  
+  /* Success message */
+  .success-box h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* OK button */
+  .success-btn {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .success-btn:hover {
+    background-color: #005a4f;
+  }
+  
